@@ -1,0 +1,220 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY */
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#0a0a0a;
+    color:#e5e5e5;
+    line-height:1.6;
+    padding:40px;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:80px;
+}
+
+.logo{
+font-family:'Inter',sans-serif;
+font-size:18px;
+font-weight:600;
+letter-spacing:2px;
+}
+
+.logo a{
+color:#e5e5e5;
+text-decoration:none;
+font-family:'Inter',sans-serif;
+font-size:18px;
+font-weight:600;
+letter-spacing:2px;
+}
+
+.logo a:visited{
+color:#e5e5e5;
+}
+
+nav a{
+    margin-left:25px;
+    text-decoration:none;
+    color:#9ca3af;
+    font-size:14px;
+}
+
+nav a:hover{
+    color:#ffffff;
+}
+
+
+/* HERO */
+
+.hero{
+    text-align:center;
+    margin-bottom:80px;
+}
+
+.profile{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:20px;
+}
+
+.hero h2{
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.tagline{
+    color:#9ca3af;
+    margin-bottom:10px;
+}
+
+.bio{
+    color:#6b7280;
+    margin-bottom:25px;
+}
+
+
+/* SOCIAL LINKS */
+
+.socials a{
+    margin:0 10px;
+    text-decoration:none;
+    color:#9ca3af;
+    font-size:14px;
+}
+
+.socials a:hover{
+    color:#ffffff;
+}
+
+
+/* QUICK LINKS */
+
+.quick-links{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-bottom:80px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#111;
+    border:1px solid #222;
+    padding:25px;
+    width:220px;
+    text-decoration:none;
+    color:#e5e5e5;
+    transition:all 0.2s ease;
+}
+
+.card h3{
+    margin-bottom:8px;
+}
+
+.card p{
+    color:#9ca3af;
+    font-size:14px;
+}
+
+.card:hover{
+    border-color:#444;
+    transform:translateY(-3px);
+}
+
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    color:#6b7280;
+    font-size:14px;
+}
+
+/* ===== PAGE LAYOUT FOR PROJECTS & EXPERIENCE ===== */
+.page-container{
+width:60%;
+max-width:900px;
+margin-left:auto;
+margin-right:auto;
+}
+
+/* section spacing */
+
+.section-title{
+    font-size:28px;
+    margin-bottom:40px;
+}
+
+
+/* item layout */
+
+.item{
+    margin-bottom:40px;
+}
+
+.item-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:6px;
+}
+
+.item-title{
+    font-size:18px;
+    font-weight:500;
+}
+
+.item-link{
+    text-decoration:none;
+    color:#9ca3af;
+    font-size:14px;
+}
+
+.item-link:hover{
+    color:white;
+}
+
+.tech{
+    font-size:14px;
+    color:#9ca3af;
+    margin-bottom:6px;
+}
+
+.description{
+    color:#cfcfcf;
+    font-size:15px;
+    line-height:1.6;
+}
+
+/* Achievements section smaller text */
+
+.achievements .item-title{
+    font-size:15px;
+    font-weight:500;
+}
+
+.achievements .description{
+    font-size:14px;
+    color:#bfbfbf;
+}
+.achievements-title{
+font-size:22px;
+font-weight:500;
+margin-bottom:30px;
+}
